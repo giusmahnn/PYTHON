@@ -1,0 +1,1 @@
+This program produces a variety of list on the menu. The user has to enter his/her preferred choice on the menu and a total is produced at the end of the order. A module called pyinputplus was used to carry out the program.
