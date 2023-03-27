@@ -24,5 +24,5 @@ def getAllExternalLinks(url):
                 print('External Link: {}'.format(href))
 
 
-internalLinks.add('http://twitter.com')
-getAllExternalLinks('http://twitter.com')
+internalLinks.add('http://nba.com')
+getAllExternalLinks('http://nba.com')
