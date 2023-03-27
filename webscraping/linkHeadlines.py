@@ -1,3 +1,10 @@
+# This code scrapes the site for the title and headlines on the nba site
+# It also has a try and except function to stop it from breaking incase it gets to a missing tag
+# It follows the regex pattern to print out the links starting with /
+
+
+
+
 import requests
 from bs4 import BeautifulSoup
 import re
