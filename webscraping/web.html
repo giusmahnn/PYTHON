@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Scraping Extended Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .container {
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        .highlight {
+            background-color: #ffeb3b;
+        }
+        .info-box {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <header id="main-header">
+        <h1>Web Scraping Extended Example</h1>
+    </header>
+
+    <div class="container">
+        <!-- Section with ID and class attributes -->
+        <section id="introduction" class="highlight">
+            <h2>Introduction</h2>
+            <p>This page contains a variety of HTML elements to practice web scraping using <strong>Python libraries</strong> like <em>BeautifulSoup</em>.</p>
+        </section>
+
+        <!-- Data Table with IDs and Classes -->
+        <section id="data-table">
+            <h2>Data Table</h2>
+            <table class="data-table">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Occupation</th>
+                </tr>
+                <tr id="row-1">
+                    <td>1</td>
+                    <td class="name">John Doe</td>
+                    <td class="age">29</td>
+                    <td class="occupation">Engineer</td>
+                </tr>
+                <tr id="row-1">
+                    <td>2</td>
+                    <td class="name">Jane Smith</td>
+                    <td class="age">34</td>
+                    <td class="occupation">Doctor</td>
+                </tr>
+                <tr id="row-1">
+                    <td>3</td>
+                    <td class="name">Mike Johnson</td>
+                    <td class="age">41</td>
+                    <td class="occupation">Artist</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Ordered and Unordered Lists with Divs -->
+        <section id="lists">
+            <h2>Unordered List</h2>
+            <div class="info-box">
+                <ul class="unordered-list">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+            </div>
+
+            <h2>Ordered List</h2>
+            <div class="info-box">
+                <ol class="ordered-list">
+                    <li>First Item</li>
+                    <li>Second Item</li>
+                    <li>Third Item</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Links with IDs and Classes -->
+        <section id="links">
+            <h2>Links</h2>
+            <p>
+                Visit <a href="https://www.example.com" id="example-link" class="external-link" target="_blank">Example.com</a> for more information.
+            </p>
+            <p>
+                Visit <a href="https://www.w3schools.com" id="w3schools-link" class="external-link" target="_blank">W3Schools</a> to learn about web development.
+            </p>
+        </section>
+
+        <!-- Form with Input Fields -->
+        <section id="form">
+            <h2>Sample Form</h2>
+            <form action="#">
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="fname" value="John"><br>
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe"><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </div>
+
+    <footer id="main-footer">
+        <p>&copy; 2024 Web Scraping Extended Example</p>
+    </footer>
+
+</body>
+</html>
